@@ -1,0 +1,337 @@
+@media screen and (min-width:320px) and (max-width:595px){
+    header{
+        padding-top: 40px;
+    }
+    .container{
+        padding:0 25px;
+        margin: 0 !important;
+    }
+    .nav-menu-btn{
+        width: 35px;
+        position: fixed;
+        top:25px;
+        right: 30px;
+        z-index: 20;
+        display: block;
+    }
+    #navMenu{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 80%;
+        background:linear-gradient(rgb(198, 190, 190),#ffd6d6);
+        position: fixed;
+        top: 0;
+        right: 0;
+        align-items: center;
+        justify-content: center;
+        transition: .5s;
+        z-index: 10;
+        }
+        .nav-link ul li a{
+            width: 150px;
+            display: block;
+            text-align: center;
+            font-size: 25px;
+        }
+        .nav-link ul li a::after{
+            display: none;
+        }
+
+    .header-disc{
+        padding:50px 0;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    .disc-title{
+        flex-basis:100%;
+    }
+    .disc-img{
+        flex-basis:100%;
+        padding-top: 20px;
+    }
+    .disc-img img{
+        width: 90%;
+    }
+    .offer-row{
+        padding:80px 25px !important;
+        gap:70px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .offer-left-col{
+        flex-basis:100%;
+    }
+    .offer-left-col img{
+        width: 100%;
+    }
+    .offer-right-col{
+        flex-basis: 90%;
+        text-align: center;
+    }
+    .testimonial-col{
+        flex-basis: 90%;
+        padding-bottom: 20px;
+    }
+    .testimonial-text{
+        width:100%;
+        margin: auto;
+    }
+    .footer-download-link{
+        flex-basis:100%;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .footer-logo{
+        flex-basis:100%;
+        padding-bottom: 50px;
+    }
+    .download-img{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:20px;
+        margin: auto;
+    }
+    .footer-useful-link{
+        flex-basis:45%;
+    }
+    
+    .footer-social-links{
+        flex-basis:45%;
+    }
+}
+
+@media screen and (min-width:899px) and (max-width:1050px){
+    .nav-logo{
+        flex-basis:50%;
+        text-align:left;
+        margin-top:30px;
+    }
+    .nav-logo img{
+        width:160px;
+    }
+    .nav-link{
+        flex-basis:50%;
+        text-align: right;
+    }
+    .nav-link ul li{
+        padding:30px 15px
+    }
+    .nav-link ul li a{
+        font-size: 15px;
+        opacity: 0.6;
+        transition: 0.5s;
+        display:inline-block;
+    }
+    .nav-link ul li a:hover{
+        text-decoration: underline;
+    }
+    .disc-img img{
+        max-width:400px
+    }
+
+    /*products*/
+
+.small-container{margin:80px auto;
+}
+.row{
+    margin:0 40px;
+    text-align: center;
+}
+.product-col{
+    margin:16px auto;
+    max-width:500px;
+}
+.product-col img{
+    max-width:100%;
+    margin:0 10px;
+}
+.featured-row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin:25px 50px;
+    justify-content: space-around;
+}
+.featured-col-4{
+    max-width:500px;
+    flex-basis: 20%;
+    transition:0.4s;
+    margin:0 15px;
+    margin-bottom: 15px;
+}
+.featured-col-4 img{
+    width:100%;
+}
+.letest-h4{
+    margin-top:-20px;
+}
+
+/*offer*/
+
+.offer-row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:100px 0;
+    background:radial-gradient(#fff,#ffd6d6);
+    margin-top:70px;
+    margin-bottom:80px;
+}
+.offer-left-col{
+    flex-basis:50%;
+    text-align: right;
+}
+.offer-left-col img{
+    max-width: 300px;
+    padding-bottom:45px;
+}
+.offer-right-col{
+    flex-basis: 50%;
+    text-align: left;
+}
+.offer-title{
+    max-width:350px;
+}
+.offer-title p{
+   font-size:15px;
+}
+.offer-title h2{
+    padding:20px auto;;
+    font-size:30px;
+}
+
+/*Testimoal*/
+
+.row{
+    margin:-50px 80px;
+    text-align: center;
+}
+.testimonial-col{
+    flex-basis: 30%;
+    text-align:center;
+}
+/*brand*/
+
+.brand-img{
+    margin:70px auto;
+}
+.brand{
+    width:90px;
+    margin:0 18px;
+}
+/*footer*/
+
+.download-img{
+    max-width:400px;
+}
+.download-img img{
+    width:100px;
+}
+.footer-download-link h4{
+    font-size:15px;
+}
+.footer-download-link p{
+    font-size:13px;
+}
+.download-img img{
+    width: 90px;
+}
+.footer-logo p{
+    font-size:14px;
+}
+.footer-useful-link h4{
+    font-size:15px;
+}
+.footer-useful-link p{
+    font-size:12px;
+}
+.footer-social-links h4{
+    font-size:15px;
+}
+.footer-social-links p{
+    font-size:12px;
+}
+.copy-title{
+    font-size:12px;
+}
+}
+@media screen and (min-width:596px) and (max-width:900px){
+    header{
+        padding-top: 40px;
+    }
+    .nav-menu-btn{
+        width: 35px;
+        position: fixed;
+        top:25px;
+        right: 30px;
+        z-index: 10;
+        display: block;
+    }
+    #navMenu{
+        display: flex;
+        flex-direction: column;
+        height: 550px;
+        width: 60%;
+        background:linear-gradient(rgb(198, 190, 190),#ffd6d6);
+        position: fixed;
+        top: 0;
+        right: 0;
+        align-items: center;
+        justify-content: flex-end;
+        transition: .5s;
+        }
+        .nav-link ul li a{
+            width: 200px;
+            background-color: #fff;
+            display: block;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid transparent;
+            color:rgb(6, 9, 9);
+            transition: .3s;
+        }
+        .nav-link ul li a:hover{
+            width: 200px;
+            background-color: rgb(20, 18, 18);
+            display: block;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid transparent;
+            color:#ffd6d6;
+            transition: .3s;
+        }
+            .header-disc{
+                padding:50px 0;
+                flex-direction: column;
+                align-items:flex-start;
+            }
+            .disc-title{
+                flex-basis:100%;
+            }
+            .disc-img{
+                flex-basis:100%;
+                padding-top: 20px;
+                margin-left: 15%;
+    }
+    .disc-title p{
+        max-width: 80%;
+    }
+    .offer-row{
+        gap:40px;
+    }
+    .testimonial-col{
+        flex-basis: 45%;
+        padding-bottom: 20px;
+    }
+    .testimonial-text{
+        width:100%;
+        margin: auto;
+    }
+}
